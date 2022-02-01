@@ -1,11 +1,9 @@
 import React from 'react';
-import {
-  Text as FText,
-  TouchableOpacity as FTouchableOpacity,
-} from 'react-native';
 import Styles from './Styles';
-import { View } from 'react-native';
+import {View} from 'react-native';
 import PropTypes from 'prop-types';
+import FText from '../../../common/rn/FText';
+import FTouchableOpacity from '../../../common/rn/FTouchableOpacity';
 
 const ClaimsTile = ({
   type,
@@ -26,8 +24,7 @@ const ClaimsTile = ({
         <FTouchableOpacity
           style={[Styles.container(cardColor), style]}
           onPress={onPress}
-          disabled={disabled}
-        >
+          disabled={disabled}>
           <FText type="medium" style={Styles.quantity}>
             {quantity}
           </FText>
@@ -46,8 +43,7 @@ const ClaimsTile = ({
             Styles.containerSecondary,
           ]}
           onPress={onPress}
-          disabled={disabled}
-        >
+          disabled={disabled}>
           {noClaim ? null : (
             <>
               {amount ? (

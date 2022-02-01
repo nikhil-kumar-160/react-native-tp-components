@@ -1,6 +1,6 @@
-const IMG_DIRECTORY = '../../../main/assets/images/';
-const EXPENSE_DIRECTORY = '../../../main/assets/images/expense/';
-const TRIP_DIRECTORY = '../../../main/assets/images/tripCard/';
+const IMG_DIRECTORY = '../../assets/images';
+const EXPENSE_DIRECTORY = '../../assets/images/expense/';
+const TRIP_DIRECTORY = '../../assets/images/tripCard/';
 
 export default {
   fabCredits: require(IMG_DIRECTORY + 'fab_credits.png'),

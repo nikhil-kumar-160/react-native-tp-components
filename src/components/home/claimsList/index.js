@@ -1,22 +1,22 @@
 import React from 'react';
-import { FlatList } from 'react-native';
+import {FlatList} from 'react-native';
 import ClaimsTile from '../claimsTile';
 import Styles from './Styles';
 import PropTypes from 'prop-types';
-import { Data } from './data';
+import {Data} from './data';
 
-const ClaimsList = (props) => {
+const ClaimsList = props => {
   return (
     <FlatList
       data={props.data}
-      renderItem={({ item }) => (
+      renderItem={({item}) => (
         <ClaimsTile
           {...item}
           type={'large'}
           onPress={() => props.onPress(item)}
         />
       )}
-      keyExtractor={(item) => item.id}
+      keyExtractor={item => item.id}
       horizontal={true}
       style={Styles.container}
       contentContainerStyle={Styles.contentContainerStyle}
@@ -33,6 +33,6 @@ ClaimsList.propTypes = {
 };
 
 ClaimsList.defaultProps = {
-  onPress: (item) => console.log('card pressed', item),
+  onPress: item => console.log('card pressed', item),
   data: Data,
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import {createDrawerNavigator} from '@react-navigation/drawer';
 import ComponentViewer from './ComponentViewer';
 
 const Drawer = createDrawerNavigator();

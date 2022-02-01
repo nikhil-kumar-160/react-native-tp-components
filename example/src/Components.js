@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { ClaimsList, MessageList } from 'react-native-tp-components';
+import {Text} from 'react-native';
+import {ClaimsList, MessageList} from 'react-native-tp-components';
 
-const Components = ({ route }) => {
+const Components = ({route}) => {
   switch (route.name) {
     case 'ClaimsList':
       return <ClaimsList />;
