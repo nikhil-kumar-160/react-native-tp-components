@@ -1,6 +1,6 @@
 {
   "name": "react-native-tp-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Components for the UI are present in this module",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -71,7 +71,7 @@
     "react": "*",
     "react-native": "*",
     "react-native-vector-icons": "8.1.0",
-    "prop-types":"15.8.1"
+    "prop-types": "15.8.1"
   },
   "jest": {
     "preset": "react-native",
