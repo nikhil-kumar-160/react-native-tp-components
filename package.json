@@ -3,28 +3,14 @@
   "version": "0.1.4",
   "description": "The Components for the UI are present in this module",
   "main": "src/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
     "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "react-native-tp-components.podspec",
-    "!lib/typescript/example",
-    "!android/build",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__",
     "react-native.config.js"
   ],
   "scripts": {
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
@@ -45,6 +31,16 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "dependencies": {
+    "react-native-vector-icons": "8.1.0",
+    "prop-types": "15.8.1",
+    "@react-native-community/blur": "3.6.0",
+    "intl": "^1.2.5",
+    "moment": "2.29.1",
+    "react-native-linear-gradient": "2.5.6",
+    "react-native-loading-placeholder": "0.0.6",
+    "react-native-webview": "11.4.3"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "11.0.0",
     "@react-native-community/eslint-config": "3.0.1",
@@ -60,20 +56,11 @@
     "react": "17.0.2",
     "react-native": "0.63.4",
     "react-native-builder-bob": "0.18.0",
-    "release-it": "14.2.2",
-    "typescript": "4.1.3"
+    "release-it": "14.2.2"
   },
   "peerDependencies": {
-    "react": "17.0.2",
-    "react-native": "0.63.4",
-    "react-native-vector-icons": "8.1.0",
-    "prop-types": "15.8.1",
-    "@react-native-community/blur": "3.6.0",
-    "intl": "^1.2.5",
-    "moment": "2.29.1",
-    "react-native-linear-gradient": "2.5.6",
-    "react-native-loading-placeholder": "0.0.6",
-    "react-native-webview": "11.4.3"
+    "react": "*",
+    "react-native": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -134,13 +121,5 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "avoid"
-  },
-  "react-native-builder-bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      "commonjs",
-      "module"
-    ]
   }
 }

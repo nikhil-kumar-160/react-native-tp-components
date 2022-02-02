@@ -25,6 +25,8 @@ module.exports = {
       acc[name] = path.join(__dirname, 'node_modules', name);
       return acc;
     }, {}),
+
+    sourceExts: ['js', 'json', 'ts', 'tsx', 'travelPlus.js', 'travelPlus.json'],
   },
 
   transformer: {
