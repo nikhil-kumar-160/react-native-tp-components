@@ -9,15 +9,14 @@ import Feather from 'react-native-vector-icons/Feather';
 import MessageCard from '../messageCard';
 import Styles from './Styles';
 import PropTypes from 'prop-types';
-import { Data } from './data';
+import {Data} from './data';
 
-const MessageList = ({ data, onViewAll, onPress, showViewAllButton }) => {
+const MessageList = ({data, onViewAll, onPress, showViewAllButton}) => {
   const ViewAllButton = () => {
     return (
       <FTouchableOpacity
         style={Styles.viewAllButtonContainer}
-        onPress={onViewAll}
-      >
+        onPress={onViewAll}>
         <FText style={Styles.viewAllText}>View all</FText>
         <View style={Styles.arrow}>
           <Feather name="arrow-right" size={16} color={'blue'} />
@@ -30,7 +29,7 @@ const MessageList = ({ data, onViewAll, onPress, showViewAllButton }) => {
   return (
     <FlatList
       data={data}
-      renderItem={({ item, index }) => (
+      renderItem={({item, index}) => (
         <MessageCard
           isRead={item.read}
           title={item.title}

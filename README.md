@@ -5,6 +5,8 @@ The Repository is used for creating the UI components to be used inside the Reac
 ## Installation
 
 ```sh
+npm i react-native-vector-icons@8.1.0 @react-native-community/blur@3.6.0 react-native-gesture-handler@1.9.0 react-native-linear-gradient@2.5.6 react-native-webview@11.4.3
+
 npm install react-native-tp-components
 ```
 

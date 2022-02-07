@@ -5,7 +5,7 @@ import Styles from './Styles';
 import PropTypes from 'prop-types';
 import {Data} from './data';
 
-const ClaimsList = props => {
+const ClaimsList = (props) => {
   return (
     <FlatList
       data={props.data}
@@ -16,7 +16,7 @@ const ClaimsList = props => {
           onPress={() => props.onPress(item)}
         />
       )}
-      keyExtractor={item => item.id}
+      keyExtractor={(item) => item.id}
       horizontal={true}
       style={Styles.container}
       contentContainerStyle={Styles.contentContainerStyle}
@@ -33,6 +33,6 @@ ClaimsList.propTypes = {
 };
 
 ClaimsList.defaultProps = {
-  onPress: item => console.log('card pressed', item),
+  onPress: (item) => console.log('card pressed', item),
   data: Data,
 };

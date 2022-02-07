@@ -4,11 +4,18 @@ import ComponentViewer from './ComponentViewer';
 
 const Drawer = createDrawerNavigator();
 
+import {COMPONENTS} from './ComponentList';
+
 const ComponentsDrawer = () => {
   return (
     <Drawer.Navigator>
-      <Drawer.Screen name="ClaimsList" component={ComponentViewer} />
-      <Drawer.Screen name="MessageList" component={ComponentViewer} />
+      {COMPONENTS.map((item, index) => (
+        <Drawer.Screen
+          name={item}
+          component={ComponentViewer}
+          key={`abc${index}`}
+        />
+      ))}
     </Drawer.Navigator>
   );
 };

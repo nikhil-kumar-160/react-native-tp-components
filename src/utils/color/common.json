@@ -60,8 +60,8 @@
     "PERIWINKLE": "#8186e7",
     "TIFFANY_BLUE": "#85e0e8",
     "POWDER_BLUE": "#b5d9ff",
-    "WHITESH_GREY":"#ebebeb",
-    "DARK_80":"rgb(145,144,158)",
     "DARK_SLATE_BLUE": "#202c60",
-    "SILVER" :"#d2d1d7"
+    "SILVER" :"#d2d1d7",
+    "LIGHT_BLUEY_GREY":"#c3c6cd",
+    "GREYISH_PURPLE": "#7b7988"
 }
