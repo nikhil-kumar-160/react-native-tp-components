@@ -1,4 +1,4 @@
-const IMG_DIRECTORY = '../../assets/images';
+const IMG_DIRECTORY = '../../assets/images/';
 const EXPENSE_DIRECTORY = '../../assets/images/expense/';
 const TRIP_DIRECTORY = '../../assets/images/tripCard/';
 
