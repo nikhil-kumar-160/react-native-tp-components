@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {shadowObj} from '../../../utils/Utils';
-import {DP} from '../../../utils/Dimen';
-import {Color} from '../../../utils/color';
+import {shadowObj} from 'src/utils/Utils';
+import {DP} from 'src/utils/Dimen';
+import {Color} from 'src/utils/color';
 
 export default StyleSheet.create({
   container: {
@@ -78,7 +78,7 @@ export default StyleSheet.create({
     backgroundColor: Color.LIGHT_BLUEY_GREY,
     marginHorizontal: DP._5,
   },
-  perferenceContainer: {
+  preferenceContainer: {
     position: 'absolute',
     width: DP._30,
     height: DP._30,

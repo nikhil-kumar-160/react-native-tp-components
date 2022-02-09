@@ -2,8 +2,8 @@ import React from 'react';
 import Styles from './Styles';
 import {View} from 'react-native';
 import PropTypes from 'prop-types';
-import FText from '../../../common/rn/FText';
-import FTouchableOpacity from '../../../common/rn/FTouchableOpacity';
+import FText from 'src/common/rn/FText';
+import FTouchableOpacity from 'src/common/rn/FTouchableOpacity';
 
 const ClaimsTile = ({
   type,

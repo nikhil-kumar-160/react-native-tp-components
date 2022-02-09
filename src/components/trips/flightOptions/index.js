@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import FlightCard from '../flightCard';
 import Styles from './Styles';
 import {Data} from './data';
-import {DP} from '../../../utils/Dimen';
+import {DP} from 'src/utils/Dimen';
 import Animated, {Extrapolate, Value, Easing} from 'react-native-reanimated';
-import {shadowObj} from '../../../utils/Utils';
+import {shadowObj} from 'src/utils/Utils';
 const {width} = Dimensions.get('window');
 
 let offset = 0;

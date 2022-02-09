@@ -3,11 +3,11 @@ import {View, Dimensions} from 'react-native';
 import PropTypes from 'prop-types';
 import Styles from './Styles';
 import Animated from 'react-native-reanimated';
-import FText from '../../../common/rn/FText';
-import FImage from '../../../common/rn/FImage';
-import FTouchableOpacity from '../../../common/rn/FTouchableOpacity';
-import {DP} from '../../../utils/Dimen';
-import {Color} from '../../../utils/color';
+import FText from 'src/common/rn/FText';
+import FImage from 'src/common/rn/FImage';
+import FTouchableOpacity from 'src/common/rn/FTouchableOpacity';
+import {DP} from 'src/utils/Dimen';
+import {Color} from 'src/utils/color';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {flightInfo as flightDetails} from './data';
@@ -101,7 +101,7 @@ const FlightCard = ({
             <FText type="medium" style={{color: Color.TWILIGHT_BLUE}}>
               Tap to set preference
             </FText>
-            <View style={Styles.perferenceContainer}>
+            <View style={Styles.preferenceContainer}>
               <FText type="medium" style={{fontSize: DP._18}}>
                 {preference}
               </FText>

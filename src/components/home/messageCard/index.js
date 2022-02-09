@@ -8,21 +8,14 @@ import Feather from 'react-native-vector-icons/Feather';
 import Styles from './Styles';
 import PropTypes from 'prop-types';
 
-const MessageCard = ({
-  isRead,
-  dateTime,
-  onPress,
-  title,
-  tagsStrippedBody,
-}) => {
+const MessageCard = ({isRead, dateTime, onPress, title, tagsStrippedBody}) => {
   return (
     <FTouchableOpacity style={Styles.container} onPress={onPress}>
       <FText
         type={isRead ? 'regular' : 'medium'}
         style={Styles.message(isRead)}
         numberOfLines={4}
-        ellipsizeMode={'tail'}
-      >
+        ellipsizeMode={'tail'}>
         {`${title}: ${tagsStrippedBody}`}
       </FText>
       <FText style={Styles.date(isRead)}>{dateTime}</FText>

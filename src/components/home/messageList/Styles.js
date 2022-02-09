@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import { DP } from '../../../utils/Dimen';
+import {StyleSheet} from 'react-native';
+import {DP} from 'src/utils/Dimen';
 
 export default StyleSheet.create({
   viewAllButtonContainer: {

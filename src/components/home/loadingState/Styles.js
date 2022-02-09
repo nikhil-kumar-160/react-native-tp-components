@@ -1,7 +1,7 @@
 import {Dimensions, StyleSheet} from 'react-native';
-import {DP} from '../../../utils/Dimen';
-import {Color} from '../../../utils/color';
-import {shadowObj} from '../../../utils/Utils';
+import {DP} from 'src/utils/Dimen';
+import {Color} from 'src/utils/color';
+import {shadowObj} from 'src/utils/Utils';
 const deviceWidth = Dimensions.get('window').width;
 
 export default StyleSheet.create({

@@ -5,11 +5,11 @@ import {
   Placeholder,
 } from 'react-native-loading-placeholder';
 import LinearGradient from 'react-native-linear-gradient';
-import {Color} from '../../../utils/color';
+import {Color} from 'src/utils/color';
 import Styles from './Styles';
-import FText from '../../../common/rn/FText';
+import FText from 'src/common/rn/FText';
 import Feather from 'react-native-vector-icons/Feather';
-import {DP} from '../../../utils/Dimen';
+import {DP} from 'src/utils/Dimen';
 
 const LoadingState = () => {
   const animatedComponent = (cardColor, secondaryColor) => {

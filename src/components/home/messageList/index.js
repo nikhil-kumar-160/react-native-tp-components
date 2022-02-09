@@ -41,7 +41,7 @@ const MessageList = ({data, onViewAll, onPress, showViewAllButton}) => {
       keyExtractor={(item) => item.id}
       ItemSeparatorComponent={() => <View style={Styles.separator} />}
       horizontal
-      ListFooterComponent={() => (showViewAllButton ? <ViewAllButton /> : null)}
+      ListFooterComponent={() => showViewAllButton && <ViewAllButton />}
       ListHeaderComponent={() => <View style={Styles.separator} />}
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={Styles.listContentStyle}

@@ -1,10 +1,9 @@
-import { StyleSheet, Dimensions } from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 
-import { DP } from '../../../utils/Dimen';
-import { Color } from '../../../utils/color';
-import { shadowObj } from '../../../utils/Utils';
+import {DP} from 'src/utils/Dimen';
+import {shadowObj} from 'src/utils/Utils';
 
-const { width } = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 export default StyleSheet.create({
   container: (backgroundColor, noClaim) => ({
@@ -13,7 +12,7 @@ export default StyleSheet.create({
     paddingBottom: DP._12,
     borderRadius: DP._12,
     backgroundColor: backgroundColor,
-    ...(noClaim ? { width: 0.4222 * width } : { minWidth: 0.4222 * width }),
+    ...(noClaim ? {width: 0.4222 * width} : {minWidth: 0.4222 * width}),
     ...shadowObj,
   }),
   containerSecondary: {
@@ -73,5 +72,5 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  color_White: { color: 'white' },
+  color_White: {color: 'white'},
 });
