@@ -1,7 +1,7 @@
 import {StyleSheet, Dimensions} from 'react-native';
 
-import {DP} from 'src/utils/Dimen';
-import {shadowObj} from 'src/utils/Utils';
+import {DP} from '../../../utils/Dimen';
+import {shadowObj} from '../../../utils/Utils';
 
 const {width} = Dimensions.get('window');
 

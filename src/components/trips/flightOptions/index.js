@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, FlatList, Dimensions} from 'react-native';
-import {PanGestureHandler, State} from 'react-native-gesture-handler';
+import {View, Dimensions} from 'react-native';
+import {PanGestureHandler, State, FlatList} from 'react-native-gesture-handler';
 import PropTypes from 'prop-types';
 import FlightCard from '../flightCard';
 import Styles from './Styles';

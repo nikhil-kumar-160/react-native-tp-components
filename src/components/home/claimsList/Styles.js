@@ -1,6 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {DP} from 'src/utils/Dimen';
-
+import {DP} from '../../../utils/Dimen';
 export default StyleSheet.create({
   container: {
     flexWrap: 'wrap',

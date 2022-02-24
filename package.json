@@ -5,9 +5,10 @@
   "main": "src/index",
   "react-native": "src/index",
   "source": "src/index",
-  "types": "src/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "src",
+    "dist",
     "react-native.config.js"
   ],
   "scripts": {
