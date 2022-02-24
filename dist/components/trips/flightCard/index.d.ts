@@ -26,3 +26,4 @@ declare namespace FlightCard {
 }
 declare const deviceWidth: number;
 import { flightInfo as flightDetails } from "./data";
+//# sourceMappingURL=index.d.ts.map

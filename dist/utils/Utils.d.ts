@@ -46,3 +46,4 @@ declare namespace _default {
     export { getPluralText };
 }
 export default _default;
+//# sourceMappingURL=Utils.d.ts.map

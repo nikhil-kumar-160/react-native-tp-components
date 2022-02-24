@@ -12,3 +12,4 @@ declare namespace ClaimsList {
     }
 }
 import { Data } from "./data";
+//# sourceMappingURL=index.d.ts.map

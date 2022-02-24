@@ -27,3 +27,4 @@ declare namespace ClaimsTile {
         const date: any;
     }
 }
+//# sourceMappingURL=index.d.ts.map

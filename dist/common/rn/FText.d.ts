@@ -15,3 +15,4 @@ declare namespace FText {
         export { type_1 as type };
     }
 }
+//# sourceMappingURL=FText.d.ts.map

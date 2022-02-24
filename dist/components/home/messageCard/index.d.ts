@@ -15,3 +15,4 @@ declare namespace MessageCard {
         const tagsStrippedBody: any;
     }
 }
+//# sourceMappingURL=index.d.ts.map

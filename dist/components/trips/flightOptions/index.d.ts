@@ -12,3 +12,4 @@ declare namespace FlightOptions {
         export { returnFlightList_1 as returnFlightList };
     }
 }
+//# sourceMappingURL=index.d.ts.map

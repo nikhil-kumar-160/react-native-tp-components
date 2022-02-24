@@ -4,3 +4,4 @@ export const Data: {
     quantity: string;
     cardColor: string;
 }[];
+//# sourceMappingURL=data.d.ts.map

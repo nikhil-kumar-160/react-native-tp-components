@@ -204,3 +204,4 @@ export namespace DP {
     const match_width2: number;
     const match_height2: number;
 }
+//# sourceMappingURL=Dimen.d.ts.map

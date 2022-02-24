@@ -5,3 +5,4 @@ declare namespace _default {
     const arrowContainer: unknown;
 }
 export default _default;
+//# sourceMappingURL=Styles.d.ts.map

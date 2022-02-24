@@ -9,3 +9,4 @@ export namespace flightInfo {
     const flightDuration: string;
     const stops: string;
 }
+//# sourceMappingURL=data.d.ts.map

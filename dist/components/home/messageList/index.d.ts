@@ -23,3 +23,4 @@ declare namespace MessageList {
     }
 }
 import { Data } from "./data";
+//# sourceMappingURL=index.d.ts.map

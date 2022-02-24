@@ -5,3 +5,4 @@ export const Data: {
     tagsStrippedBody: string;
     read: boolean;
 }[];
+//# sourceMappingURL=data.d.ts.map

@@ -17,3 +17,4 @@ declare namespace _default {
     const preferenceContainer: unknown;
 }
 export default _default;
+//# sourceMappingURL=Styles.d.ts.map
