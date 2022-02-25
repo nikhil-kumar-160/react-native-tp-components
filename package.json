@@ -92,7 +92,8 @@
       "requireBranch": "master"
     },
     "npm": {
-      "publish": true
+      "publish": true,
+      "tag": "trips"
     },
     "github": {
       "release": true
