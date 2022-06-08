@@ -1,6 +1,6 @@
 {
   "name": "react-native-tp-components",
-  "version": "0.1.10",
+  "version": "0.1.11-hotfix.0",
   "description": "The Components for the UI are present in this module",
   "main": "src/index",
   "react-native": "src/index",
