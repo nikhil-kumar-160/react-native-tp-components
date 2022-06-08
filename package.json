@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "release": "release-it --preRelease=hotfix",
+    "release": "release-it minor",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods",
@@ -89,11 +89,11 @@
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}",
-      "requireBranch": "master"
+      "requireBranch": "developer"
     },
     "npm": {
       "publish": true,
-      "tag": "trips"
+      "tag": "dev"
     },
     "github": {
       "release": true
