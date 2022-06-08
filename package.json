@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "release": "release-it minor",
+    "release": "release-it minor --preRelease=hotfix",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods",
